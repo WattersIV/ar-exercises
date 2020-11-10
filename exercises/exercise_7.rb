@@ -23,4 +23,4 @@ end
 puts "Store name:"
 @user_store_name = gets.chomp 
 store = Store.create(name: "#{@user_store_name}") 
-# puts store.errors.messages
+puts store.errors.messages
